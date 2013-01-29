@@ -10,6 +10,8 @@
         fetch="git://github.com/mozilla/" />
   <remote name="cm"
         fetch="git://github.com/CyanogenMod/" />
+  <remote name="dazzozo"
+        fetch="git://github.com/Dazzozo/" />
   <remote name="caf"
         fetch="git://codeaurora.org/" />
   <remote name="linaro"
@@ -121,5 +123,10 @@
   <project path="vendor/qcom/opensource/omx/mm-core" name="android_vendor_qcom_opensource_omx_mm-core" />
   <project path="vendor/qcom/opensource/omx/mm-video" name="android_vendor_qcom_opensource_omx_mm-video" />
   <project path="vendor/qcom/opensource/v8" name="android_vendor_qcom_opensource_v8" />
+
+  <!-- U8815 -->
+  <project path="device/huawei/u8815" name="android_device_huawei_u8815" remote="dazzozo" revision="ics" />
+  <project path="kernel/huawei/u8815" name="android_kernel_huawei_u8815" remote="dazzozo" revision="ics" />
+  <project path="vendor/huawei" name="proprietary_vendor_huawei" remote="dazzozo" revision="ics" />
 
 </manifest>
