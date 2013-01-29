@@ -7,9 +7,9 @@
   <remote name="b2g"
         fetch="https://git.mozilla.org/b2g" />
   <remote name="mozilla"
-	    fetch="git://github.com/mozilla/" />
+        fetch="git://github.com/mozilla/" />
   <remote name="cm"
-	    fetch="git://github.com/CyanogenMod/" />
+        fetch="git://github.com/CyanogenMod/" />
   <remote name="caf"
         fetch="git://codeaurora.org/" />
   <remote name="linaro"
