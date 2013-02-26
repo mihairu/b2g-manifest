@@ -7,6 +7,8 @@
            fetch="git://android.git.linaro.org/" />
   <remote name="b2g"
            fetch="https://git.mozilla.org/b2g" />
+  <remote name="b2ggithub"
+           fetch="git://github.com/mozilla-b2g/" />
   <remote name="mozilla"
 	  fetch="git://github.com/mozilla/" />
   <remote name="mozillaorg" 
@@ -34,6 +36,7 @@
   <project path="bootable/recovery" name="platform/bootable/recovery" />
   <project path="device/common" name="device/common" />
   <project path="device/sample" name="device/sample" />
+  <project path="external/apriori" name="platform_external_apriori" remote="b2ggithub" revision="master" />
   <project path="external/bluetooth/bluez" name="platform/external/bluetooth/bluez" />
   <project path="external/bluetooth/glib" name="platform/external/bluetooth/glib" />
   <project path="external/bluetooth/hcidump" name="platform/external/bluetooth/hcidump" />
@@ -42,6 +45,8 @@
   <project path="external/dbus" name="platform/external/dbus" />
   <project path="external/dhcpcd" name="platform/external/dhcpcd" />
   <project path="external/dnsmasq" name="platform/external/dnsmasq" />
+  <project path="external/elfcopy" name="platform_external_elfcopy" remote="b2ggithub" revision="master" />
+  <project path="external/elfutils" name="platform_external_elfutils" remote="b2ggithub" revision="master" />
   <project path="external/expat" name="platform/external/expat" />
   <project path="external/fdlibm" name="platform/external/fdlibm" />
   <project path="external/flac" name="platform/external/flac" />
@@ -95,7 +100,7 @@
   <project path="system/vold" name="platform/system/vold" />
 
   <!-- Emulator specific things -->
-  <project path="development" name="platform/development" revision="435a7da6d02083ba6583e1654db351991cf79578" />
+  <project path="development" name="android-development" remote="b2g" revision="emu-fix" />
   <project path="device/generic/goldfish" name="device/generic/goldfish" />
   <project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" revision="master" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" revision="master" />
