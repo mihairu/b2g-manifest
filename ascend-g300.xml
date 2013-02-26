@@ -6,6 +6,8 @@
         fetch="https://android.googlesource.com/" />
   <remote name="b2g"
         fetch="https://git.mozilla.org/b2g" />
+  <remote name="b2ggithub"
+        fetch="git://github.com/mozilla-b2g/" />
   <remote name="mozilla"
         fetch="git://github.com/mozilla/" />
   <remote name="cm"
@@ -32,9 +34,9 @@
   <project path="gecko" name="gecko.git" remote="mozillaorg" revision="master" />
   <project path="gonk-misc" name="gonk-misc" remote="b2g" revision="master" />
   <project path="rilproxy" name="rilproxy" remote="b2g" revision="master" />
-  <project path="external/apriori" name="platform_external_apriori" remote="b2g" revision="master" />
-  <project path="external/elfcopy" name="platform_external_elfcopy" remote="b2g" revision="master" />
-  <project path="external/elfutils" name="platform_external_elfutils" remote="b2g" revision="master" />
+  <project path="external/apriori" name="platform_external_apriori" remote="b2ggithub" revision="master" />
+  <project path="external/elfcopy" name="platform_external_elfcopy" remote="b2ggithub" revision="master" />
+  <project path="external/elfutils" name="platform_external_elfutils" remote="b2ggithub" revision="master" />
   <project path="external/moztt" name="moztt" remote="b2g" revision="master" />
   <project path="external/opensans" name="platform_external_opensans" remote="b2g" revision="master" />
   <project path="external/screencap-gonk" name="screencap-gonk" remote="b2g" revision="master" />
