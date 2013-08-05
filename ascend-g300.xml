@@ -55,7 +55,7 @@
   <project path="external/mksh" name="platform/external/mksh" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
   <project path="external/tinyalsa" name="platform/external/tinyalsa" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
   <project path="frameworks/support" name="platform/frameworks/support" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
-  <project path="prebuilt" name="platform/prebuilt" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
+  <project path="prebuilt" name="platform/prebuilt" remote="aosp" revision="8c212ebe53bb2baab3575f03069016f1fb11e449" />
 
   <!-- CAF -->
   <project path="external/hostap" name="platform/external/hostap" remote="caf" revision="ics_chocolate" />
