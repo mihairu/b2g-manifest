@@ -108,7 +108,7 @@
   <project path="external/wpa_supplicant_6" name="android_external_wpa_supplicant_6" />
   <project path="external/zlib" name="android_external_zlib" />
   <project path="external/yaffs2" name="android_external_yaffs2" />
-  <project path="frameworks/base" name="android_frameworks_base" revision="d45de85fe90ff18207f6b129b2d3063c6b51d43b" />
+  <project path="frameworks/base" name="android_frameworks_base" />
   <project path="frameworks/opt/emoji" name="android_frameworks_opt_emoji" />
   <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" />
@@ -133,7 +133,7 @@
   <project path="vendor/qcom/opensource/v8" name="android_vendor_qcom_opensource_v8" />
 
   <!-- U8815 -->
-  <project path="device/huawei/u8815" name="android_device_huawei_u8815" remote="dazzozo" revision="b2g" />
+  <project path="device/huawei/u8815" name="android_device_huawei_u8815" remote="dazzozo" revision="ics" />
   <project path="kernel/huawei/u8815" name="android_kernel_huawei_u8815" remote="dazzozo" revision="ics" />
   <project path="vendor/huawei" name="proprietary_vendor_huawei" remote="dazzozo" revision="b2g" />
 
